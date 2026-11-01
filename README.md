@@ -13,7 +13,7 @@ Ferramenta de diagnóstico e monitoramento de sistemas desenvolvida em Python. O
 ## Tecnologias utilizadas
 
 - **Python 3:** linguagem principal do projeto.
-- **psutil:** biblioteca para consulta de recursos do sistema e monitoramento de processos.
+- **psutil:** biblioteca para consulta de recursos e monitoramento do sistema.
 - **Git:** controle de versão do código-fonte.
 - **GitHub:** hospedagem e gerenciamento do repositório.
 
@@ -37,21 +37,15 @@ Acesse a pasta do projeto:
 cd PythonSystemTool
 ```
 
-Instale a dependência necessária:
+Instale as dependências:
 
 ```bash
-python -m pip install psutil
+py -m pip install -r requirements.txt
 ```
 
 ## Execução
 
 Execute o programa a partir da pasta do projeto:
-
-```bash
-python main.py
-```
-
-No Windows, também é possível utilizar:
 
 ```bash
 py main.py
@@ -64,16 +58,18 @@ Após a execução, será apresentado um menu interativo com as opções de diag
 ```text
 PythonSystemTool/
 ├── main.py
-└── README.md
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ## Melhorias planejadas
 
-- [ ] Monitoramento do uso da CPU em tempo real.
-- [ ] Listagem de processos com maior consumo de memória.
-- [ ] Geração automática de relatórios do sistema.
-- [ ] Aprimoramento da interface do terminal.
-- [ ] Implementação de novas ferramentas de diagnóstico.
+- Monitoramento do uso da CPU.
+- Listagem de processos com maior consumo de memória.
+- Geração automática de relatórios do sistema.
+- Aprimoramento da interface do terminal.
+- Implementação de novas ferramentas de diagnóstico.
 
 ## Objetivo
 
